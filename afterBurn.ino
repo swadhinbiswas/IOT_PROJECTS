@@ -1,3 +1,23 @@
+/*
+ *  ESP2[Hendling The sensors]
+ * Project: A shop Security System and (IoT Sensor Monitoring) with Telegram Alerts
+ * Author: SwadhinBiswas
+ * Date: 2024-12-05
+ * Contact: swadhinbiswas.cse@gmail.com
+ * GitHub: https://github.com/swadhinbiswas
+ * 
+ * Description: 
+ *     This program reads sensor data from gas, motion, vibration, and ultrasonic sensors,
+ *     and uploads the data to Firebase Realtime Database. Additionally, it implements
+ *     security alerts if certain thresholds are breached.
+ * 
+
+ */
+
+
+
+
+
 #include <WiFi.h>
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
@@ -8,8 +28,8 @@ const char* ssid = "x";
 const char* password = "12345678";
 
 // Telegram Bot Token and Group Chat ID
-const char* chatID  = "-4636684324";
-const char* botToken = "7670914886:AAGV8P7EZO2vWJkEJqksDFzJvP5f5YsKZmk";
+const char* chatID  = "";
+const char* botToken = "";
 
 // Initialize Wi-Fi and Bot
 WiFiClientSecure client;
