@@ -40,12 +40,12 @@ const int trigPin = 18; // Ultrasonic sensor Trig
 const int echoPin = 19; // Ultrasonic sensor Echo
 const int pirPin = 2;  // PIR motion sensor
 const int irPin = 13;   // IR sensor
-const int gasPin = 22;  // Gas sensor (Analog pin)
+const int gasPin = 22;  // Gas sensor 
 const int buzzerPin = 23;
 const int vibrate = 14;
 
 // Thresholds
-const int gasThreshold = 400;  // Adjust based on your sensor's readings
+const int gasThreshold = 400; 
 const int vibra=500;
 
 // Variables
